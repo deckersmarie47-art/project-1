@@ -1,8 +1,10 @@
-basic.pause(10)
-basic.showLeds(`
-    . # . # .
-    # . # . #
-    # . . . #
-    . # . # .
-    . . # . .
-    `)
+basic.forever(function () {
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+    basic.clearScreen()
+})
